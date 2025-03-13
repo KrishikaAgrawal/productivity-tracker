@@ -16,7 +16,9 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     <ThemeContext.Provider value={{ darkMode, toggleDarkMode }}>
       <div
         className={
-          darkMode ? "dark bg-gradient-to-t bg-gray-900 text-white" : "bg-white text-gray-900"
+          darkMode
+            ? "dark bg-gradient-to-t bg-[#000814] text-[#f8961e]"
+            : "bg-white text-gray-900"
         }
       >
         {children}
