@@ -1,6 +1,6 @@
 import { Carousel, CarouselItem } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import { Avatar } from "@/components/ui/avatar";
+// import { Avatar } from "@/components/ui/avatar";
 // import { StarIcon } from "lucide-react";
 import { FaStar } from "react-icons/fa6";
 
