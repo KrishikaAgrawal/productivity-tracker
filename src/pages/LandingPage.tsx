@@ -46,8 +46,10 @@ const LandingPage = () => {
         <h2 className="text-2xl font-bold">
           Start Boosting Your Productivity Today
         </h2>
-        <Input placeholder="Enter your email" className="my-5" />
-        <Button size="lg">Sign Up Now</Button>
+        <div className=" justify-center flex flex-col lg:flex-row items-center my-5 gap-3">
+          <Input placeholder="Enter your email" className="lg:w-1/3" />
+          <Button size="lg">Sign Up Now</Button>
+        </div>
       </section>
 
       <footer className="text-center py-5 border-t mt-10">
